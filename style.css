@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    
+  }
+  .container{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+  }
+ 
+  img {
+    position: absolute;
+    height: 60vh;
+    width: 100%;
+    opacity: 0;
+    transition: 3s;
+  }
+  
+  .show {
+    opacity: 1;
+  }
+  .bg-img{
+    position: relative;
+    color: #f6f1f1;
+    text-align: center;
+    height: 60vh;
+    width: 100%;
+    background-image: url('./images/Rectangle7.png');
+    opacity: 0.8;
+  }
+  .heading{
+    margin-top: 24vh;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+
+  }
+  .main-container{
+    background-color: #073a09;
+  }
+  .date-container{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+
+
+  table{
+    width: 100%;
+    text-align: center;
+
+  }
+  th{
+    background-color: #0a861b;
+    color: #f6f1f1;
+    text-align: center;
+    margin: 20px;
+    font-size: larger;
+  }
+  table, th, td {
+    border: 1px solid #035a07;
+    border-collapse: collapse;
+    padding: 5px;
+    font-weight: 600;
+  }
+  tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  #timer{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+  }
+  .display-text{
+    padding-bottom: 20px;
+  }
+  #demo{
+    font-size: 50px;
+    color: red;
+
+  }
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #022c13;
+    color: white;
+  }
